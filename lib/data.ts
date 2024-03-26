@@ -35,20 +35,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated B.Tech(DTU)",
-    location: "Delhi, IND",
-    description:
-      "I graduated after 4 years of studying. I immediately found a job as an Associate Software Engineer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
-  {
     title: "Front-End Developer",
     location: "Delhi, IND",
     description:
       "I worked as a front-end developer for 1 year in a startup. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
+  },
+  {
+    title: "Graduated B.Tech(DTU)",
+    location: "Delhi, IND",
+    description:
+      "I graduated after 4 years of studying. I immediately found a job as an Associate Software Engineer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
   {
     title: "Associate Software Engineer",
