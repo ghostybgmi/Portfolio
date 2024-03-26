@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated B.Tech(DTU)",
+    location: "Delhi, IND",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I immediately found a job as an Associate Software Engineer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Delhi, IND",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 1 year in a startup. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Associate Software Engineer",
+    location: "Delhi, IND",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a full-stack developer working as a fulltime employee. My stack includes React,Angular15, Next.js, TypeScript, Tailwind,.NET and MySQL. I'm open to new full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 -2024",
   },
 ] as const;
 
@@ -64,34 +64,32 @@ export const projectsData = [
   {
     title: "Weather-App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "Tailwind","MUI"],
+      "Get live weather updates with our stylish Next.js, Tailwind CSS, and Material-UI app. Stay informed with accurate forecasts in a sleek interface",
+    tags: ["React", "Next.js", "Tailwind", "MUI"],
     imageUrl: corpcommentImg,
     // width: 'auto',
     // height: 'auto'
-    link: 'https://weather-app-nextjs-seven-rho.vercel.app/'
+    link: "https://weather-app-nextjs-seven-rho.vercel.app/",
   },
   {
     title: "Spotify Clone",
     description:
-    "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Seamless music experience: Next.js, Tailwind CSS, and Material-UI power our Spotify clone for exploring favorite tracks. ",
     tags: ["React", "Next.js", "Typescript", "Tailwind"],
     imageUrl: wordanalyticsImg,
     // width: 'auto',
     // height: 'auto'
-    link: 'https://spotify-clone-omega-liart.vercel.app/'
-
+    link: "https://spotify-clone-omega-liart.vercel.app/",
   },
   {
     title: "Task Management App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind","MUI"],
+      "Easily manage tasks with our sleek Next.js, Tailwind CSS, and Material-UI powered app.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MUI"],
     imageUrl: rmtdevImg,
     // width: 'auto',
     // height: 'auto'
-    link: 'https://task-management-psv5.vercel.app/'
-
+    link: "https://task-management-psv5.vercel.app/",
   },
 ] as const;
 

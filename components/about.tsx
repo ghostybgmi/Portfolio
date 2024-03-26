@@ -19,18 +19,24 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+        After completing my degree in{" "}
+        <span className="font-medium">Computer Science</span>, I immediately
+        pursued my passion for programming I gained practical experience by
+        working for a startup before graduating. Following that, I joined
+        Bluekaktus{" "}
+        {/* <span className="font-medium">full-stack web development</span>.{" "} */}
+        <span className="italic">
+           where I further honed my skills in
+          full-stack development. What excites me most about programming is the
+          problem-solving aspect, and there's nothing quite like 
+        </span>{" "}
+        {/* is the problem-solving aspect. I <span className="underline">love</span>{" "} */}
+        the feeling of finally figuring out a solution to a problem. My core
+        stack is{" "}
+        <span className="font-bold">
+          React, Next.js, Angular15,.NET and MySQL
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . I am also familiar with TypeScript. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
@@ -41,8 +47,8 @@ export default function About() {
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">human nature and psychology</span>. I'm
+        also learning how to do Cardistry.
       </p>
     </motion.section>
   );
